@@ -1,23 +1,5 @@
 #!/bin/bash
 
-# Set your secret password (hashing is better, but here it's plaintext for simplicity)
-correct_pass="Lol@123"
-
-# Prompt for password without showing input
-read -sp "Enter password to continue: " input_pass
-echo
-
-# Check password
-if [[ "$input_pass" != "$correct_pass" ]]; then
-    echo "Access Denied."
-    exit 1
-fi
-
-# Continue with the rest of your script
-echo "Access Granted."
-
-
-
 echo "Script started at $(date '+%Y-%m-%d %H:%M:%S')"
 
 set -e
