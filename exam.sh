@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set your secret password (hashing is better, but here it's plaintext for simplicity)
-correct_pass="mysecretpassword"
+correct_pass="Lol@123"
 
 # Prompt for password without showing input
 read -sp "Enter password to continue: " input_pass
